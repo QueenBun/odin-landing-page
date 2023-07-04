@@ -1,0 +1,157 @@
+body{
+    background-color: #1f2937;
+    font-family: roboto;
+}
+
+/*header*/
+
+.header  {
+    font-family: Roboto;
+    background: #1f2937;
+    display: flex;
+    color: white;
+  }
+  
+.logo {
+    font-size: 24px;
+  }
+
+.one, .two, .three{
+    justify-items: flex-end;
+    font-size: 12px;
+    color: white;
+    padding: 20px;
+    text-align: right;
+    text-decoration: none;
+    align-content: end;
+}
+
+/*box 1*/
+
+.first {
+    background: #1f2937;
+    color: white;
+    display: flex;
+    font-size: 36px;
+    flex-direction: row;
+
+}
+
+.text {
+    width: 600px;
+    text-align: left;
+    margin: 20px;
+    padding: 50px;
+}
+
+.button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 6px;
+    
+}
+.herotxt {
+    font-size: 18px;
+
+}
+
+.picture {
+    align-self: flex-end;
+    background: gray;
+    color: white;
+    align-self: flex-end;
+    width: 400px;
+    margin: 200px;
+    padding: 150px;
+    float: right;
+    font-size: 14px;
+    align-self: center;
+    align-content: center;
+}
+
+/*box 2*/
+
+.second {
+    background-color: white;
+    font-family: roboto;
+}
+
+.heading {
+    color: #1f2937;
+    text-align: center;
+    padding: 20px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box1, .box2, .box3, .box4{
+    font-family: roboto;
+    flex-direction: row;
+    padding: 50px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid blue;
+    background-color: lightgray;
+
+}
+.ps {
+    font-family: roboto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 12;
+    margin-left: 30px;
+}
+
+/*box 3*/
+
+.third {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    font-family: roboto;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937
+}
+
+.quote {
+   padding-left: 400px;
+   padding-right: 400px;
+   padding-bottom: 10px;
+}
+
+.thor {
+    padding-left: 1000px;
+    font-style: normal;
+    font-size: 24px;
+}
+
+/*box4*/
+
+.fourth {
+    background-color: white;
+    font-family: roboto;
+    color: white;
+    display: flex;
+}
+
+.time {
+    background-color: #3882F6;
+    align-self: center;
+    flex: 1;
+    width: 300px;
+    text-align: left;
+    margin: 20px 400px;
+    padding: 20px;
+}
+
+
+.sign {
+    flex-direction: row;
+    padding-left: 1000;
+
+}
