@@ -1,0 +1,1 @@
+This is a project to recreate a landing page to the specification of the Odin Project assignment.
